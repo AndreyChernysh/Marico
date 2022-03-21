@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marico</title>
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Source/Style/Img/FavIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Source/Style/Img/FavIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Source/Style/Img/FavIcon/favicon-16x16.png">
+    <link rel="manifest" href="Source/Style/Img/FavIcon/site.webmanifest">
+    <!-- Styles -->
+    <!-- Main Css Style -->
+    <link rel="stylesheet" href="Source/Style/Css/main.css">
+    <!-- Grid Layout -->
+    <link rel="stylesheet" href="Source/Style/Css/adaptive.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="Source/Style/Fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Preloader Block -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="circle-preloader circle-1"></div>
+            <div class="circle-preloader circle-2"></div>
+            <div class="circle-preloader circle-3"></div>
+            <div class="circle-preloader circle-4"></div>
+            <div class="circle-preloader circle-5"></div>
+        </div>
+    </div>
+    <!-- Main Block -->
+    <div class="wrapper" id="app">
+        <header class="header animate__animated animate__backInDown">
+            <div class="container">
+                <nav class="header__navbar">
+                    <div class="block-logo">
+                        <a href="#">
+                            <svg width="46" height="43" viewBox="0 0 46 43" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-img">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24.0481V42.8481H16.424V40.1881L0 24.0481Z" fill="#326CF9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M28.691 42.852H45.1131V24.052L28.6951 40.193L28.691 42.852Z" fill="#326CF9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M45.115 0.844002L22.605 22.971L0 0.75V19.87L22.605 42.091L45.111 19.968L45.115 0.844002Z" fill="#326CF9"/>
+                            </svg>
+                        </a>
+                        <h2 class="logo-text">Marico</h2>
+                    </div>
+                    <ul class="menu">
+                        <li class="drop-down-container"><a href="#" class="menu_btn" id="drop-down_btn">Use Cases<i class="fas fa-chevron-down"></i></a>
+                            <!-- Menu -->
+                            <ul style="display: none;">
+                                <li><a href="#" class="menu_btn"></a></li>
+                                <li><a href="#" class="menu_btn"></a></li>
+                                <li><a href="#" class="menu_btn"></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#about" class="menu_btn">About</a></li>
+                        <li><a href="#pricing" class="menu_btn">Pricing</a></li>
+                        <li><a href="#blog" class="menu_btn" id="blog_btn">Blog</a></li>
+                    </ul>
+                    <div class="block-auth">
+                        <button class="auth_btn" id="login">Login</button>
+                        <button class="auth_btn" id="signup">Sign Up</button>
+                    </div>
+                    <i class="fas fa-bars" id="burg_menu"></i>
+                </nav>
+                <div class="header__content">
+                    <div class="block-title">
+                        <h1 class="header__title">
+                            Own your audience. <br>
+                            <span class="gradient-title">So you don't lose them.</span>
+                        </h1>
+                    </div>
+                    <div class="block-info">
+                        <h2 class="title-description">Turn your audience into email and <br>
+                            text message subscribers.</h2>
+                        <div class="block-btn">
+                            <button id="start" class="btn">Get Started Now</button>
+                            <button id="demo" class="btn">View A Demo</button>
+                        </div>
+                        <div class="result">
+                            <div class="result-block">
+                                <div class="circle"></div>
+                            <h2 class="result-count">
+                                1000+
+                            </h2>
+                            </div>
+                            <p class="short-text">
+                                creators have already started
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="second_screen" id="about">
+            <div class="container">
+                <div class="list">
+                    <div class="block-list-title">
+                        <h1 class="list-title invisible">
+                            Why Creators Love Marico
+                        </h1>
+                    </div>
+                    <div class="feature-list invisible">
+                        <div class="item">
+                            <div class="block-name-feature">
+                                <img src="Source/Style/Img/SVG/Smile_emoji.svg" alt="" class="emoji">
+                                <h2 class="item__title">Reduced Anxiety</h2>
+                            </div>
+                            <div class="block-description-feature">
+                                <p class="item__text">
+                                    Never worry about losing your audience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="block-name-feature">
+                                <img src="Source/Style/Img/SVG/Happy_emoji.svg" alt="" class="emoji">
+                                <h2 class="item__title">Lower Workload</h2>
+                            </div>
+                            <div class="block-description-feature">
+                                <p class="item__text">
+                                    Just share one link. We'll handle the rest.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="block-name-feature">
+                                <img src="Source/Style/Img/SVG/Party_emoji.svg" alt="" class="emoji">
+                                <h2 class="item__title">More Time</h2>
+                            </div>
+                            <div class="block-description-feature">
+                                <p class="item__text">
+                                    Spend less time on marketing tools
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third_screen block-step">
+            <div class="container">
+                <div class="step__wrapper invisible">
+                    <h1 class="number_step">
+                        STEP 1
+                    </h1>
+                    <h1 class="step_title">
+                        Connect Your Content
+                    </h1>
+                    <p class="sub-title_step">
+                        Bring all of your content together and get a Homepage that <br>
+                        automatically updates whenever you create anywhere online.
+                    </p>
+                    <button id="demo" class="btn">View Avaliable Sources</button>
+                </div>
+            </div>
+        </section>
+        <section class="fourth_screen block-hero" id="pricing">
+            <div class="container">
+                <div class="wrapper_hero invisible">
+                    <div class="hero-desc">
+                        <h1 class="hero_stamp">
+                            Your Homepage
+                        </h1>
+                        <h1 class="title-hero">
+                            Your Content. <br>
+                            All in <span class="hero-phrase">One Spot</span>
+                        </h1>
+                        <div class="block-reason">
+                            <div class="reason-item">
+                                <div class="count-reason">1</div><p class="reason-text">Bring all of your content together into one homepage.</p>
+                            </div>
+                            <div class="reason-item">
+                                <div class="count-reason">2</div><p class="reason-text">Your page automatically updates whenever you create.</p>
+                            </div>
+                        </div>
+                        <div class="block-btn">
+                            <button id="start" class="btn">Get Started Now</button>
+                            <button id="demo" class="btn">View A Demo</button>
+                        </div>
+                    </div>
+                    <img src="Source/Style/Img/SVG/Prototype.svg" class="hero-img" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="fifth_screen block-step">
+            <div class="container">
+                <div class="step__wrapper invisible">
+                    <h1 class="number_step">
+                        STEP 2
+                    </h1>
+                    <h1 class="step_title">
+                        Share Your Homepage
+                    </h1>
+                    <p class="sub-title_step">
+                        Share your Wavium homepage link with your followers, and <br>
+                        we'll handle the rest.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="sixth_screen">
+            <div class="container">
+                <div class="wrapper-block-getstarted">
+                    <div class="cards">
+                        <div class="card-info one-link invisible">
+                            <h2 class="stamp">One Link</h2>
+                            <div class="card-title_block">
+                                <h1 class="card-title">
+                                    <span class="card-title-span">ALL You Create.</span><br>
+                                    One Link
+                                </h1>
+                            </div>
+                            <img src="Source/Style/Img/SVG/Mobile.svg" alt="" class="card-img">
+                        </div>
+                        <div class="card-info get-subscribers invisible">
+                            <h2 class="stamp">Collect Subscribers</h2>
+                            <h1 class="card-title" id="card-second-title">
+                                <span class="card-title-span">Emails. <br>
+                                Phone #s.</span><br>
+                                All Yours.
+                            </h1>
+                        </div>
+                    </div>
+                    <button id="start" class="btn card-btn invisible">Get Started</button>
+                </div>
+            </div>
+        </section>
+        <section class="seventh_screen block-step">
+            <div class="container">
+                <div class="step__wrapper invisible">
+                    <h1 class="number_step">
+                        STEP 3
+                    </h1>
+                    <h1 class="step_title">
+                        Send Emails & Text Messages
+                    </h1>
+                    <p class="sub-title_step">
+                        No more going through a social platform. Reach and engage
+                        your audience directly over email and text massage.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="eigth_screen block-hero"  id="blog">
+            <div class="container">
+                <div class="wrapper_hero invisible">
+                    <div class="hero-desc">
+                        <h1 class="hero_stamp">
+                            Create & Share
+                        </h1>
+                        <h1 class="title-hero">
+                            Reach Your<br>
+                            Audience <span class="hero-phrase">Directly</span>
+                        </h1>
+                        <div class="block-reason">
+                            <div class="reason-item">
+                                <div class="count-reason">1</div><p class="reason-text">Embed content or create something new to share.</p>
+                            </div>
+                            <div class="reason-item">
+                                <div class="count-reason">2</div><p class="reason-text">Share content over email, text message or your homepage.</p>
+                            </div>
+                        </div>
+                        <div class="block-btn">
+                            <button id="start" class="btn">Get Started Now</button>
+                            <button id="demo" class="btn">View A Demo</button>
+                        </div>
+                    </div>
+                    <img src="Source/Style/Img/SVG/BlackPink.svg" class="hero-img" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="nineth_screen">
+            <div class="continer">
+                <div class="twits_wrapper invisible">
+                    <h1 class="twits-title">Experts Agree</h1>
+                    <img src="Source/Style/Img/SVG/BG_Chat.svg" alt="" class="picure-twit">
+                </div>
+            </div>
+        </section>
+        <section class="tenth_screen">
+            <div class="container">
+                <div class="smile_wrapper invisible">
+                    <h1 class="smile-title">
+                        We've helped over 1,000 creatorsre <br>
+                        claim control of their audience.</h1>
+                </div>
+            </div>
+        </section>
+        <section class="eleventh_screen">
+            <div class="container">
+                <div class="site_wrapper">
+                    <img src="Source/Style/Img/SVG/logo.svg" alt="Marico" class="site-logo invisible">
+                    <div class="site-header">
+                        <h1 class="site-title invisible">Get Started Now</h1>
+                        <p class="site-sub-title invisible">Setup is easy and takes under 5 minutes.</p>
+                    </div>
+                    <button id="start" class="btn site-btn invisible">Get Started Now</button>
+                    <div class="result invisible">
+                        <div class="result-block">
+                            <div class="circle"></div>
+                            <h2 class="result-count">
+                                1000+
+                            </h2>
+                        </div>
+                        <p class="short-text">
+                            creators have already started
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_menu">
+                    <div class="footer__logo-block">
+                        <div class="logo-title">
+                            <a href="#">
+                                <svg width="46" height="43" viewBox="0 0 46 43" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-img">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 24.0481V42.8481H16.424V40.1881L0 24.0481Z" fill="#326CF9"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.691 42.852H45.1131V24.052L28.6951 40.193L28.691 42.852Z" fill="#326CF9"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M45.115 0.844002L22.605 22.971L0 0.75V19.87L22.605 42.091L45.111 19.968L45.115 0.844002Z" fill="#326CF9"/>
+                                </svg>
+                            </a>
+                            <h2 class="logo-text">Marico</h2>
+                        </div>
+                        <p class="author-email">info@marico.co</p>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#" class="menu_btn">About</a></li>
+                        <li><a href="#" class="menu_btn">Pricing</a></li>
+                        <li><a href="#" class="menu_btn" id="blog_btn">Blog</a></li>
+                        <li><a href="#" class="menu_btn">Sign in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- ModalWindow And Popup -->
+    <div class="modal">
+        <div class="modal__wrapper">
+            <form action="post" class="content auth-form" id="auth-form">
+                <div class="">
+                    <button class="">Log In</button>
+                    <button class="">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Source/Scripts/JavaScript/main.js"></script>
+</body>
+</html>   
