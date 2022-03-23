@@ -1,0 +1,26 @@
+.drop-down-container {
+    position: relative;
+
+}
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    transition: 0.6s ease-in-out;
+}
+.submenu__link {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+.submenu__link:hover {
+    color: #3C82F4;
+}
+.block-submenu__link {
+    padding: 10px 5px 10px 0px;
+}
+.drop-down-container:hover > .submenu{visibility: visible; opacity: 1;}
