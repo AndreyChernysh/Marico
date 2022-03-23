@@ -21,6 +21,6 @@
     color: #3C82F4;
 }
 .block-submenu__link {
-    padding: 10px 5px 10px 0px;
+    padding: 10px 5px 10px 0px; 
 }
 .drop-down-container:hover > .submenu{visibility: visible; opacity: 1;}
